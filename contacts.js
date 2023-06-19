@@ -52,6 +52,5 @@ module.exports = {
   listContacts,
   getContactById,
   removeContact,
-  addContact,
-  saveContacts
+  addContact
 };
