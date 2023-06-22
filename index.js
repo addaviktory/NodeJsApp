@@ -23,7 +23,6 @@ function invokeAction({ action, id, name, email, phone }) {
       case "remove":
         const contactToRemove = getContactById(id);
         if (contactToRemove) {
-          removeContact(id);
           console.log(contactToRemove, 'Контакт успішно видалено:');
         } else {
           console.log('Контакт з вказаним ID не знайдено');
